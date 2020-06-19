@@ -1,0 +1,28 @@
+POST http://localhost:8080/rest/cart/
+Accept: application/json
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+"cartId": "1234",
+"cartItems": {
+"P1234": {
+"product": {
+"productId": "P1234",
+"name": "iPhone 5s",
+"unitPrice": 500,
+"description": "Apple iPhone 5s smartphone with 4.00-inch 640x1136 display and 8-megapixel rear camera",
+"manufacturer": "Apple",
+"category": "Smart Phone",
+"unitsInStock": 1000,
+"unitsInOrder": 0,
+"discontinued": false,
+"condition": "NEW"
+},
+"quantity": 1,
+"totalPrice": 500
+}
+},
+"grandTotal": 500
+}
+
